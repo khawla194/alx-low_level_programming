@@ -1,5 +1,9 @@
 #include <stdio.h>
-int main (void)
+/*fonction main
+* return always 0
+* */
+	
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
