@@ -9,11 +9,11 @@ int main(void)
 	int i;
 	int alpha = 97;
 
-	for (i = 0;i < 26; i++)
+	for (i = 0; i < 26; i++)
 	{
 		if (alpha == 101 || alpha == 113)
 		{
-			continue;
+			alpha++;
 		}
 		else
 		{
