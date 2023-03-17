@@ -7,20 +7,14 @@
 int main(void)
 {
 	int i;
-	int alpha = 97;
 
-	for (i = 0; i < 26; i++)
+	for (i = 97; i < 123; i++)
 	{
-		if (alpha == 101)
+		if (i == 101 || i == 113)
 		{
 			continue;
 		}
-		if (alpha == 113)
-		{
-			continue;
-		}
-		putchar (alpha);
-		alpha++;
+		putchar (i);
 	}
 	putchar ('\n');
 	return (0);
