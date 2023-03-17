@@ -12,13 +12,13 @@ int main(void)
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alpha);
-		alpha ++;
+		alpha++;
 	}
 	alpha = 65;
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alpha);
-		alpha ++;
+		alpha++;
 	}
 	putchar ('\n');
 	return (0);
