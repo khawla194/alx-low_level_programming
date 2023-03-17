@@ -11,9 +11,9 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		for (j = 1; j < 9; j++)
+		for (j = 1; j < 10; j++)
 		{
-			if (j>i)
+			if (j > i)
 			{
 			putchar (i + 48);
 			putchar (j + 48);
