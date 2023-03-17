@@ -13,14 +13,16 @@ int main(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (i == j)
+			if (j == i)
 			{
 				continue;
 			}
-			putchar (i+48);
-			putchar (j+48);
+			else {
+			putchar (i + 48);
+			putchar (j + 48);
 			putchar (44);
 			putchar (32);
+			}
 		}
 	}
 	putchar ('\n');
