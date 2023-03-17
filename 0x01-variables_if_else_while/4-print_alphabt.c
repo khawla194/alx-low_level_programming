@@ -13,12 +13,9 @@ int main(void)
 	{
 		if (alpha == 101 || alpha == 113)
 		{
-			alpha++;
+			continue;
 		}
-		else
-		{
-			putchar (alpha);
-		}
+		putchar (alpha);
 		alpha++;
 	}
 	putchar ('\n');
