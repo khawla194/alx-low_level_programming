@@ -18,9 +18,8 @@ void print_to_98(int n)
 		a = n - 98 + 1;
 		for (i = 0; i < a; i++)
 		{
-			b = n + i;
-			_putchar(b / 10 + 48);
-			_putchar(b % 10 + 48);
+			b = n - i;
+			printf("%d",b);
 			if (i != a - 1)
 			{
 				_putchar(44);
@@ -37,8 +36,7 @@ void print_to_98(int n)
 			if(b > 9)
 			{
 
-				_putchar(b / 10 + 48);
-				_putchar(b % 10 + 48);
+				printf("%d",b);
 			}
 			else
 			{
