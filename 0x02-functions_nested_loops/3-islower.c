@@ -2,7 +2,7 @@
 /**
  * _islower - checking
  *
- * c is integer
+ * 'c' is integer
  *
  * Return:  0 or 1 (Success)
  */
