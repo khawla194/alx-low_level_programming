@@ -22,18 +22,22 @@ void times_table(void)
 			if (p <= 9)
 			{
 				_putchar (p + 48);
+				if (j < 9)
+				{
+					_putchar(',');
+					_putchar (32);
+					_putchar (32);
+				}
 			}
 			else
 			{
 				_putchar(a + 48);
 				_putchar(b + 48);
+				if (j < 9)
+				{
+					_putchar(',');
+				}
 			}
-			if (j < 9)
-			{
-				_putchar(',');
-				_putchar('.');
-			}
-
 		}
 		_putchar('\n');
 	}
