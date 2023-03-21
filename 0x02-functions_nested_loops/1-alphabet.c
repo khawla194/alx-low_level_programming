@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - print alphabet
  *
  * Return: Always 0 (Success)
  */
@@ -10,10 +10,15 @@ void print_alphabet(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		_putchar(i+97);
+		_putchar(i + 97);
 	}
 	_putchar('\n');
 }
+/**
+ * main - print alphabet
+ *
+ * Return: Always 0 (Success)
+ */
 int maint (void)
 {
 	print_alphabet();
