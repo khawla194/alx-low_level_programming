@@ -19,11 +19,11 @@ void print_to_98(int n)
 		for (i = 0; i < a; i++)
 		{
 			b = n - i;
-			printf("%d",b);
+			printf("%d", b);
 			if (i != a - 1)
 			{
-				_putchar(44);
-				_putchar(32);
+				printf(",");
+				printf(" ");
 			}
 		}
 	}
@@ -33,19 +33,11 @@ void print_to_98(int n)
 		for (i = 0; i < a; i++)
 		{
 			b = n + i;
-			if(b > 9)
+			printf("%d", b);
+			if (i != a - 1)
 			{
-
-				printf("%d",b);
-			}
-			else
-			{
-				_putchar(b);
-			}
-			if (i != a-1)
-			{
-				_putchar(44);
-				_putchar(32);
+				printf(",");
+				printf(" ");
 			}
 		}
 	}
