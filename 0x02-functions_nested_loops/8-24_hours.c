@@ -6,11 +6,13 @@
  */
 void jack_bauer(void)
 {
-	int i;
-	int j;
-	int k;
-	int l;
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int l = 0;
 
+	while (i <= 2 && j <= 3 && k <= 5 && l <= 9)
+	{
 	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 10; j++)
@@ -25,12 +27,9 @@ void jack_bauer(void)
 					_putchar(k + 48);
 					_putchar(l + 48);
 					_putchar('\n');
-					if (i == 2 && j == 3 && k == 5 && l == 9)
-					{
-						break;
-					}
 				}
 			}
 		}
 	}
+}
 }
