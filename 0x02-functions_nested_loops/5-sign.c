@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_sing - Entry point
+ * print_sign - Entry point
  *
- * @n is integer
+ * @n : is integer
  *
  * Return: 0 1 or -1 (Success)
  */
