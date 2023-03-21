@@ -11,8 +11,6 @@ void jack_bauer(void)
 	int k = 0;
 	int l = 0;
 
-	do
-	{
 	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 10; j++)
@@ -21,6 +19,10 @@ void jack_bauer(void)
 			{
 				for (l = 0; l < 10; l++)
 				{
+					if (i == 2 && j == 4)
+					{
+						break;
+					}
 					_putchar(i + 48);
 					_putchar(j + 48);
 					_putchar(':');
@@ -31,6 +33,4 @@ void jack_bauer(void)
 			}
 		}
 	}
-}
-while (i <= 2 && j <= 3 && k <= 5 && l <= 9);
 }
