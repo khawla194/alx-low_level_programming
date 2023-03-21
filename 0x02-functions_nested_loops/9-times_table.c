@@ -21,12 +21,15 @@ void times_table(void)
 			b = p % 10;
 			if (p <= 9)
 			{
+				if (j != 0)
+				{
+					_putchar(32);
+					_putchar(32);
+				}
 				_putchar (p + 48);
 				if (j < 9)
 				{
 					_putchar(',');
-					_putchar (32);
-					_putchar (32);
 				}
 			}
 			else
