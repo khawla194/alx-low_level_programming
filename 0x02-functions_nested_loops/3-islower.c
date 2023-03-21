@@ -1,12 +1,14 @@
 # include"main.h"
 /**
- * main - Entry point
+ * _islower - checking
  *
- * Return: Always 0 (Success)
+ * int c is integer
+ *
+ * Return:  0 or 1 (Success)
  */
 int _islower(int c)
 {
-	if ( c >= 97 && c <= 122)
+	if (c >= 97 && c <= 122)
 	{
 	return (1);
 	}
