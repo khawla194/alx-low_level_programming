@@ -19,7 +19,7 @@ void print_alphabet(void)
  *
  * Return: Always 0 (Success)
  */
-int maint (void)
+int main (void)
 {
 	print_alphabet();
 	return (0);
