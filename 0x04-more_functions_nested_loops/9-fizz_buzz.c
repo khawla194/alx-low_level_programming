@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Write a program that prints the numbers from 1 to 100, fizz buzz
  *
  * Return: always 0 (success)
  */
@@ -28,7 +28,14 @@ int main(void)
 				}
 				else
 				{
-					printf("%d ", i);
+					if (i != 100)
+					{
+						printf("%d ", i);
+					}
+					else
+					{
+						printf("%d", i);
+					}
 				}
 			}
 		}
