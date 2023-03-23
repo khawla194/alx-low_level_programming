@@ -24,18 +24,18 @@ int main(void)
 			{
 				if (i % 5 == 0)
 				{
-					printf("Buzz ");
-				}
-				else
-				{
-					if (i != 100)
+					if (i == 100)
 					{
-						printf("%d ", i);
+						printf("Buzz");
 					}
 					else
 					{
-						printf("%d", i);
+						printf("Buzz ");
 					}
+				}
+				else
+				{
+					printf("%d ", i);
 				}
 			}
 		}
