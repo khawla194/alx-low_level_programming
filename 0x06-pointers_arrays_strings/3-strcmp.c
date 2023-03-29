@@ -34,11 +34,15 @@ int _strcmp(char *s1, char *s2)
 			return (s1[i] - s2[j]);
 	}
 	if (i == l1 && j == l2)
+	{
 		return (0);
+	}
 	else
 	{
 		if (i != l1)
+		{
 			return (-1);
+		}
 		else
 			return (1);
 	}
