@@ -5,16 +5,13 @@
  * print_numbers -  function that prints numbers, followed by a new line.
  * @separator: the separator
  * @n: number of arguments
+ * @...: variable number of arg
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list list;
 	unsigned int i;
 
-	if (n == 0)
-	{
-		return;
-	}
 	va_start(list, n);
 	for (i = 0; i < n; i++)
 	{
